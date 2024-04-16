@@ -39,16 +39,16 @@ const App = () => {
 
 
   return (
-    <div className="flex flex-row gap-4 w-screen h-screen">
+    <div className="flex md:flex-row flex-col gap-4 w-screen h-screen">
 
-      <div className="h-full w-1/2 p-4  box-border">
+      <div className="h-full w-screen md:w-1/2 p-4  box-border">
         <h1 className="text-center text-2xl mb-4">Markdown Editor</h1>
         <textarea className="outline-none w-full h-5/6"  value={text} placeholder="Enter text here" onChange={handleChange}>
 
         </textarea>
       </div>
 
-      <div className="bg-black w-1/2 h-full p-4 text-white">
+      <div className="bg-black w-screen md:w-1/2 h-full p-4 text-white">
         <h1 className="text-center text-2xl mb-4">Preview</h1>
         
          {
