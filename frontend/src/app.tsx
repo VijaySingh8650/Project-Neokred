@@ -59,25 +59,25 @@ const App = () => {
               })
               return <div key={index}>
                  {
-                  count === 1 && <h1>{item?.substring(count, item?.length)}</h1>
+                  count === 1 && <h1 className="text-2xl md:text-3xl">{item?.substring(count, item?.length)}</h1>
                  }
                  {
-                  count === 2 && <h2>{item?.substring(count, item?.length)}</h2>
+                  count === 2 && <h2 className="text-xl md:text-2xl">{item?.substring(count, item?.length)}</h2>
                  }
                  {
-                  count === 3 && <h3>{item?.substring(count, item?.length)}</h3>
+                  count === 3 && <h3 className="text-lg md:text-xl">{item?.substring(count, item?.length)}</h3>
                  }
                  {
-                  count === 4 && <h4>{item?.substring(count, item?.length)}</h4>
+                  count === 4 && <h4 className="text-sm md:text-lg">{item?.substring(count, item?.length)}</h4>
                  }
                  {
-                  count === 5 && <h5>{item?.substring(count, item?.length)}</h5>
+                  count === 5 && <h5 className="text-sm md:text-lg">{item?.substring(count, item?.length)}</h5>
                  }
                  {
-                  count === 6 && <h6>{item?.substring(count, item?.length)}</h6>
+                  count === 6 && <h6 className="text-sm md:text-lg">{item?.substring(count, item?.length)}</h6>
                  }
                  {
-                  count === 0 && <p>{item?.substring(count, item?.length)}</p>
+                  count === 0 && <p className="text-sm md:text-lg">{item?.substring(count, item?.length)}</p>
                  }
                    
               </div>
