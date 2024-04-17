@@ -68,13 +68,13 @@ const App = () => {
                   count === 3 && <h3 className="text-xl font-bold md:text-2xl">{item?.substring(count, item?.length)}</h3>
                  }
                  {
-                  count === 4 && <h4 className="text-lg font-bold md:text-xl">{item?.substring(count, item?.length)}</h4>
+                  count === 4 && <h4 className="text-lg font-semibold md:text-xl">{item?.substring(count, item?.length)}</h4>
                  }
                  {
-                  count === 5 && <h5 className="text-sm font-bold md:text-lg">{item?.substring(count, item?.length)}</h5>
+                  count === 5 && <h5 className="text-sm font-semibold md:text-lg">{item?.substring(count, item?.length)}</h5>
                  }
                  {
-                  count === 6 && <h6 className="text-sm font-bold md:text-lg">{item?.substring(count, item?.length)}</h6>
+                  count === 6 && <h6 className="text-sm font-semibold md:text-lg">{item?.substring(count, item?.length)}</h6>
                  }
                  {
                   count === 0 && <p className="text-sm font-normal md:text-lg">{item?.substring(count, item?.length)}</p>
